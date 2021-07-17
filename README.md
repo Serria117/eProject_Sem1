@@ -1,1 +1,1 @@
-# eProject_Sem1
+#2021-07-17: Khởi tạo eProject
