@@ -1,0 +1,3 @@
+2021-07-18: Tìm kiếm ảnh liên quan đến dự án, bao gồm:
+    - 2 đến 3 ảnh banner, kích thước tối thiểu chiều rộng 2048px
+    - 10 ảnh sản phẩm nông nghiệp các loại bao gồm: trái cây, bột ngũ cốc, gia vụ, dầu ăn, gạo v.v...
