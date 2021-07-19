@@ -5,7 +5,16 @@ External libraries:
 
     jquery cdn:
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    fontawesome cdn:
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 2021-07-18: Tìm kiếm ảnh liên quan đến dự án, bao gồm:
+    - 1 ảnh logo chính liên quan đến thương hiệu STAR ORGANIC
     - 2 đến 3 ảnh banner, kích thước tối thiểu chiều rộng 2048px
     - 10-20 ảnh sản phẩm nông nghiệp các loại bao gồm: trái cây, bột ngũ cốc, gia vụ, dầu ăn, gạo v.v...
+    - 4-6 ảnh logo chứng nhận sản phẩm
+
+2021-07-19 -> 21-07-22: Xây dựng layout
+    - Tham khảo và lựa chọn các layout phù hợp;
+    - Dựng wireframe các trang Home, About, Product, Contact, Galery
