@@ -18,3 +18,7 @@ External libraries:
 2021-07-19 -> 21-07-22: Xây dựng layout
     - Tham khảo và lựa chọn các layout phù hợp;
     - Dựng wireframe các trang Home, About, Product, Contact, Galery
+
+2021-07-20: Thiết kế database
+ER Diagram
+Database Diagram
