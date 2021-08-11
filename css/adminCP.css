@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+  padding: 0px !important;
+  height: 100vh;
+
+}
+
+.sidebar {
+  position: absolute;
+  float: left;
+  width: 20%;
+  background: rgb(9, 70, 47);
+  color: white;
+  padding-top: 10px;  
+  height: 100%;
+}
+
+.menu {
+  padding-left: 0px;
+}
+
+.sidebar-header {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.icon {
+  padding-right: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar li {
+  padding: 20px;
+  list-style: none;
+}
+
+.sidebar li:hover:not(.logout):not(.account) {
+  background-color: rgb(30, 126, 67);
+  transition: 0.5s;
+}
+
+.logout {
+  color: rgb(253, 43, 43);
+  font-weight: bolder;
+}
+
+.logout:hover {
+  background-color: rgb(97, 0, 0);
+  color: white;
+  transition: 0.3s;
+}
+
+.content {
+  position: relative;
+  float: right;
+  background: rgb(238, 238, 238);
+  width: 80%;
+  padding-bottom: 20px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.content h2 {
+  background-color: rgb(230, 230, 230);
+  border-bottom: 0.5px solid gray;
+  padding: 10px;
+}
+
+.add{
+  width: 80%;
+  padding-left: 20px;
+}
+.list{
+  width: 100%;
+  padding: 10px;
+  /* overflow-y: scroll; */
+}
+
+.btn-add {
+  width: 200px;
+}
+
+.item-list{
+  width: 100px;
+  height: 40px;
+}
+
+table{
+  margin: 0 auto;
+}
+th:not(.detail){
+  vertical-align: middle;
+  text-align: center;
+  color: rgb(253, 253, 253);
+}
+
+th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+tr.head {
+  background-color: rgb(27, 87, 67);
+}
+
+td {
+  text-align: center;
+}
+.statistic{
+  padding: 20px;
+}
+.stat-user {
+  background: rgb(92, 126, 70);
+  padding: 20px;
+  border-radius: 7px;
+  filter:drop-shadow(2px 2px 7px rgb(88, 88, 88));
+  color: rgb(255, 255, 255);
+}
+
+.stat-lsale {
+  background: rgb(224, 114, 23);
+  padding: 20px;
+  border-radius: 7px;
+  filter:drop-shadow(2px 2px 7px rgb(88, 88, 88));
+  color: white;
+
+}
+.stat-csale {
+  background: rgb(56, 112, 185);
+  padding: 20px;
+  border-radius: 7px;
+  filter:drop-shadow(2px 2px 7px rgb(88, 88, 88));
+  color: white;
+
+}
+
+.stat-total {
+  background: rgb(185, 31, 31);
+  padding: 20px;
+  border-radius: 7px;
+  filter:drop-shadow(2px 2px 7px rgb(88, 88, 88));
+  color: white;
+  
+}
+
+.text{
+  font-weight: 600;
+  font-size: larger;
+}
+.number{
+  font-size: xx-large;
+  text-align: right;
+}

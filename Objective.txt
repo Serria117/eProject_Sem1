@@ -23,3 +23,23 @@ External libraries:
 ER Diagram 
 Database Diagram
 
+2021-07-23: Xây dựng các chức năng
+    - Nhân viên (Staff) có 2 nhóm: admin và sale
+        Admin: 
+            Hệ thống chỉ có 1 tài khoản admin
+            Thêm/sửa/xóa hàng hóa và danh mục,
+            Nhập kho, update giá bán hàng hóa,
+            Thêm/sửa/khóa tài khoản người dùng (không cho phép xóa người dùng)
+            Đổi mật khẩu người dùng,
+            Tài khoản admin không thể bị khóa
+            Các chức năng của sale.
+        Sale:
+            Xem/tìm kiếm đơn hàng,
+            Xem/tìm kiếm hàng hóa,
+            Xử lý đơn hàng (set trạng thái order status),
+            Tạo đơn hàng,
+    - Các chức năng dành cho khách hàng (Customer):
+        Tìm kiếm sản phẩm,
+        Đăng ký tài khoản,
+        Đặt hàng,
+        Gửi thông tin liên hệ (contact).
